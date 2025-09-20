@@ -1,4 +1,7 @@
 # End-to-End-Churn-Analysis-Power-BI
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/84fae83e-b1ef-48e7-afe7-38a762ba8b32" />
+
 ### 🔎 Project Overview
 
 This project demonstrates an end-to-end churn analysis pipeline using SQL Server, Power BI, and Machine Learning (Python). It covers the full lifecycle from ETL and data cleaning → dashboard creation → insights → predictive modeling.
