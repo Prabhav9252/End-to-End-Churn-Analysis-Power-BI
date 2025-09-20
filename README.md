@@ -43,47 +43,44 @@ Interactivity: slicers, tooltips, AI insights.
 Our churn analysis identified key customer groups, behaviors, and service factors contributing to a 17.5% churn rate. Insights suggest churn is driven by contract type, competitor offers, early tenure disengagement, and service quality gaps.
 
 1. Overall Churn
-Churn Rate: ~17.5% of total customers.
-Implication: High churn for a subscription business → urgent need for targeted retention strategies.
+
+The churn rate is around 17.5% of total customers, which is quite high for a subscription-based business. This indicates a serious customer retention issue and urgent corrective actions. Targeted retention strategies and proactive interventions are critical to reducing this churn.
+
 2. Demographic Insights
-Key Segment at Risk:
-Female customers aged 50+ show significantly higher churn.
-Primary reasons might include that competitor are offering betters offers as well as better devices.
-Recommendation:
-Design loyalty campaigns for senior female customers.
-Introduce device upgrade programs and exclusive bundled deals.
+
+Female customers aged 50+ have the highest churn rate compared to other groups. The main reasons include competitors offering better devices and more attractive offers. Businesses should focus on designing loyalty campaigns for this segment. Additionally, offering device upgrade programs and exclusive bundles can help retain them.
+
 3. Account Information
+
 Contract Type:
-Month-to-month contracts shows the highest churn rate which contributes around 51%.
-Annual contracts show much lower churn.
-📌 Recommendation: Incentivize customers to migrate to annual/long-term plans (e.g., discounts, free months).
+Customers on month-to-month contracts (≈51%) are most likely to churn, while annual contract holders show lower churn. Businesses should incentivize long-term contracts with discounts or free months.
+
 Tenure:
-Customers with <6 months tenure churn the most.
-After 24 months, churn stabilizes.
-📌 Recommendation: Focus on onboarding and engagement in the first 6 months to reduce early exits.
+Customers with less than 6 months of tenure churn the most, while churn stabilizes after 24 months. Early engagement and onboarding programs in the first 6 months are crucial.
+
 Payment Methods:
-Higher churn in electronic check payments.
-📌 Recommendation: Encourage auto-pay/credit card adoption with small perks.
+Customers using electronic checks have higher churn rates. Encouraging auto-pay or credit card payments with small rewards can improve retention.
+
 4. Geographic Insights
-Top 5 states consistently show the highest churn, regardless of demographics.
-📌 Recommendation: Launch regional retention campaigns and prioritize service quality improvements in these states.
+
+The top 5 states consistently show the highest churn rates, regardless of customer demographics. This suggests churn is influenced by regional factors, such as service coverage or competitor presence. Organizations should consider regional campaigns tailored to these states. Improving service quality in high-churn areas will have the most impact.
+
 5. Churn Drivers
-Competitor Impact:
-180 customers churned due to better devices from competitors.
-183 churned due to better offers.
-📌 Recommendation: Launch competitive upgrade programs and promotional offers to counter competitor pull.
-6. Service Insights
-Low Adoption = Higher Churn Risk:
-Customers not using device protection, online backup, online security, streaming music churn more often.
-These services increase customer stickiness.
-📌 Recommendation: Cross-sell these services aggressively.
-High Adoption but High Churn = Quality Issues:
-Services like Internet, Unlimited Data, Paperless Billing, Phone Services show churn despite high usage.
-📌 Recommendation: Conduct service quality audits and improve customer experience in these areas.
+
+The biggest driver of churn is competition, with 180 customers leaving for better devices and 183 for better offers. This emphasizes that customers are highly price- and feature-sensitive. Launching competitive upgrade programs can help retain device-driven churners. Similarly, promotional offers can counteract competitors’ deals.
+
+6. Service Insights:-
+
+Low Adoption → High Churn Risk:
+Customers who don’t use services like device protection, online backup, online security, or streaming music churn more often. These services create stickiness, so businesses should cross-sell them aggressively.
+
+High Adoption but High Churn → Quality Issues:
+Services such as Internet, Unlimited Data, Paperless Billing, and Phone Services show churn despite wide adoption. This suggests dissatisfaction with service quality, requiring audits and improvements.
+
 7. AI & Predictive Insights
-AI narrative visuals confirm trends (e.g., age >50 churn risk).
-Planned Random Forest machine learning model will predict future churners at an individual customer level.
-📌 Recommendation: Use ML predictions to proactively target at-risk customers before they leave.
+
+AI-driven narrative visuals confirm key risk factors like higher churn in the 50+ age group. The next step is to use a random forest machine learning model to predict churn at the individual level. This predictive approach will help identify at-risk customers proactively. Retention teams can then target these customers with personalized campaigns before they leave.
+
 ### ✅ Strategic Recommendations
 1. Focus on early tenure – strong onboarding, engagement in first 6 months.
 2. Promote long-term contracts – reduce churn by locking in customers.
