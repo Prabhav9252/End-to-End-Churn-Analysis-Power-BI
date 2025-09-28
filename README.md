@@ -51,24 +51,24 @@ Before building the model, the data was prepared and exported from the SQL Serve
 ### 3. Building the Prediction Model in Python
 The machine learning model was developed using Python in a Jupyter Notebook environment. Key libraries such as pandas, NumPy, scikit-learn, and joblib were used for data manipulation, model creation, and evaluation.
 The process involved several key steps:
- -• Data Loading: The vw_ChurnData sheet was loaded into a pandas DataFrame.
- -• Data Preprocessing:
- -◦ Irrelevant columns like Customer_ID, Churn_Category, and Churn_Reason were dropped to avoid bias and data leakage.
- -◦ Categorical features were converted into numerical values using LabelEncoder from scikit-learn, as machine learning models work with numerical data.
- -◦ The target variable, Customer_Status, was manually encoded, with 'Churned' mapped to 1 and 'Stayed' mapped to 0.
- -•Train-Test Split: The dataset was split into training (80%) and testing (20%) sets to train the model and then evaluate its performance on unseen data.
- -•Model Training: A RandomForestClassifier was initialized (with n_estimators=100) and trained on the training data (X_train, y_train).
+1. Data Loading: The vw_ChurnData sheet was loaded into a pandas DataFrame.
+2. Data Preprocessing:
+3. -Irrelevant columns like Customer_ID, Churn_Category, and Churn_Reason were dropped to avoid bias and data leakage.
+4. -Categorical features were converted into numerical values using LabelEncoder from scikit-learn, as machine learning models work with numerical data.
+5. -The target variable, Customer_Status, was manually encoded, with 'Churned' mapped to 1 and 'Stayed' mapped to 0.
+6. Train-Test Split: The dataset was split into training (80%) and testing (20%) sets to train the model and then evaluate its performance on unseen data.
+7. Model Training: A RandomForestClassifier was initialized (with n_estimators=100) and trained on the training data (X_train, y_train).
 ### 4. Model Evaluation
 After training, the model's performance was evaluated on the test dataset.
-• Confusion Matrix: The model's predictions were compared against the actual outcomes.
-    ◦ True Negatives (Correctly predicted 'Stayed'): 783
-    ◦ False Positives (Incorrectly predicted 'Churned'): 64
-    ◦ False Negatives (Incorrectly predicted 'Stayed'): 126
-    ◦ True Positives (Correctly predicted 'Churned'): 229
-• Classification Report: This provided detailed metrics.
-    ◦ The model achieved an overall accuracy of 84%.
-    ◦ Precision for predicting churn was 78%, while recall was 65%.
-    ◦ The model performed better at predicting customers who would stay, which might be due to the imbalanced nature of the dataset (more 'Stayed' instances than 'Churned').
+1. ####  Confusion Matrix: The model's predictions were compared against the actual outcomes.
+    (i) True Negatives (Correctly predicted 'Stayed'): 783
+    (ii) False Positives (Incorrectly predicted 'Churned'): 64
+    (iii) False Negatives (Incorrectly predicted 'Stayed'): 126
+    (iv) True Positives (Correctly predicted 'Churned'): 229
+2. #### Classification Report: This provided detailed metrics.
+    (i) The model achieved an overall accuracy of 84%.
+    (ii) Precision for predicting churn was 78%, while recall was 65%.
+    (iii) The model performed better at predicting customers who would stay, which might be due to the imbalanced nature of the dataset (more 'Stayed' instances than 'Churned').
 • Feature Importance: An analysis was conducted to determine which features had the most impact on predicting churn. This can be used to fine-tune the model by removing less important features.
 ### 5. Predicting Churn on New Data
 Once trained and evaluated, the model was used to predict churn on a new dataset (vw_JoinData), which contained newly joined customers.
